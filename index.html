@@ -506,7 +506,10 @@
             position: relative;
             width: 100%;
             height: 100%;
+            aspect-ratio: 1 / 1;
+            flex: 0 0 auto;
             border-radius: 50%;
+            overflow: hidden;
             padding: 4px;
             background: transparent;
             border: 2px solid rgba(38, 170, 255, 0.9);
@@ -1026,9 +1029,9 @@
                             </a>
                         </div>
                         
-                        <button class="btn btn-resume" onclick="openModal()" aria-label="Download Resume">
+                        <a href="./cv.png" class="btn btn-resume" target="_blank" rel="noopener noreferrer" aria-label="Download Resume">
                             <i class="fa-solid fa-download"></i> Download Resume
-                        </button>
+                        </a>
                     </div>
                 </div>
 
